@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div{
+                font-family:Arial;
+            }
+            .box{
+                border-radius:6px;
+                border-width:1px;
+                border-color:rgb(206, 191, 191);
+                border-style:solid;
+                width:300px;
+            }
+            .line{
+                display:flex;
+                flex-direction:row;
+                margin-bottom:10px;
+                justify-content: space-between;
+                align-items:center;
+                padding-top:10px;
+                padding-bottom:10px;
+                padding-left:12px;
+                padding-right:12px;
+            }
+            .notifications{
+                background-color: rgb(13, 77, 187);
+                color:white;
+                font-size:16;
+                border:none;
+                border-radius:20px;
+                font-weight:bold;
+                padding-left:12px;
+                padding-right:12px;
+                padding-top:3px;
+                padding-bottom:3px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <div class="line">
+                <div>Home</div>
+                <div class="notifications">14</div>
+            </div>
+            <div class="line">
+                <div>Notifications</div>
+                <div class="notifications">3</div>
+            </div>
+            <div class="line">
+                <div>Messages</div>
+                <div class="notifications">5</div>
+            </div>
+        </div>
+    </body>
+</html>
