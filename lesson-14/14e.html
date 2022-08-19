@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                height:3000px;
+            }
+            .header{
+                position:fixed;
+                top:0;
+                left:0;
+                right:0;
+                justify-content:space-between;
+                background-color: white;
+                padding-left:50px;
+                padding-right:50px;
+                padding-top:10px;
+                padding-bottom:10px;
+                display:flex;
+                flex-direction:row;
+                align-items:center;
+            }
+            .left-section{
+                display:flex;
+                align-items:center;
+            }
+            .photo{
+                width:40px;
+                height:40px;
+                border-radius:20px;
+                object-fit:cover;
+                margin-right:10px;
+            }
+            .username{
+                flex:1;
+                font-family:Arial;
+                font-weight:bold;
+            }
+            .add-friend{
+                padding-left:10px;
+                padding-right:10px;
+                padding-bottom:10px;
+                padding-top:10px;
+                background-color: rgb(29, 102, 228);
+                color:white;
+                font-weight: bold;
+                border:none;
+                border-radius:6px;
+                margin-right:4px;
+            }
+            .message{
+                font-weight:bold;
+                border:none;
+                background-color:rgb(230, 226, 226);
+                padding-left:15px;
+                padding-right:15px;
+                padding-top:10px;
+                padding-bottom:10px;
+                border-radius:6px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="left-section">
+                <img src="cat.jpg" class="photo">
+                <div class="username">Oliver Cat</div>
+            </div>
+            <div class="right-section">
+                <button class="add-friend">Add Friend</button>
+                <button class="message">Message</button>
+            </div>
+        </div>
+    </body>
+</html>
