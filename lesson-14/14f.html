@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                padding-left:260px;
+                height:3000px;
+            }
+            div{
+                font-family:Arial;
+            }
+            .sidebar1{
+                position:fixed;
+                top:0;
+                left:0;
+                bottom:0;
+                background-color: rgb(37, 37, 37);
+                padding-left:10px;
+                padding-bottom:10px;
+                padding-right:10px;
+                padding-top:20px;
+            }
+            .photo{
+                width:60px;
+                height:60px;
+                border-radius:30px;
+                object-fit: cover;
+                margin-bottom:8px;
+            }
+            .sidebar2{
+                position:fixed;
+                left:80px;
+                bottom:0;
+                top:0;
+                background-color: rgb(72, 71, 71);
+                padding-top:18px;
+                padding-left:20px;
+                padding-right:20px;
+                padding-bottom:20px;
+                width:180px;
+            }
+            .heading{
+                display:flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom:20px;                
+            }
+            .info{
+                color:white;
+            }
+            .add{
+                font-size:26px;
+                color:rgb(167, 163, 163);
+            }
+            .subheading{
+                font-size:18px;
+                color:rgb(163, 162, 162);
+                margin-bottom:20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="sidebar1">
+            <div>
+                <img class="photo" src="cat.jpg">
+            </div>
+            <div>
+                <img class="photo" src="profile2.webp">
+            </div>
+            <div>
+                <img class="photo" src="profile3.jpg">
+            </div>           
+        </div>
+        <div class="sidebar2">
+            <div class="heading">
+                <div class="info">INFO</div>
+                <div class="add">+</div>
+            </div>
+            <div class="subheading"># new-videos</div>
+            <div class="subheading"># updates</div>
+            <div class="subheading"># faq</div>
+        </div>
+    </body>
+</html>
